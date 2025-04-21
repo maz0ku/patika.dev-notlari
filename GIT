@@ -1,0 +1,28 @@
+git add . -> tüm dosyaları git e ekler tek tek eklemeye gerek yok
+git add test.html -> test.html ekler.
+
+Genellikle güncelleme yapıldığında hangi dosyada güncelleme yaptıysan git add ile
+eklenir sonrasında git commit -m 'degisiklik' diye commitlenir örnek:
+
+test.html i değiştirdin. git bash e yazman gerekenler:
+
+git add test.html
+git commit -m 'test.html dosyasi degistirildi'
+
+git init (proje oluştururken kullanılacak komut)
+git diff (dosyaismi) ya da normal git diff: değişiklikleri gösterir
+
+git status : proje durumunu gösterir değişiklik yapılan ama kaydedilmeyen dosyalar,
+projeye eklenmemiş olan dosyalar v.s.
+
+VSCode içinden timeline ile değişiklikler / commitler görünebilir.
+
+branchler geçiş yapabileceğimiz test ortamları gibi bir şey örneğin projeye bir
+loginform oluşturduk ve bunu test etmek istiyoruz bunun için bir branch oluştururuz
+ve ona geçiş yaparız. Projenin ana branchi master ya da main branchidir.
+
+git branch branchadi ile olusturulur ya da vscode gui ile.
+
+git checkout main -> main branchine geçiş yapar.
+
+git merge branchadi -> branchi main ile birleştirir.
