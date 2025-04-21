@@ -1,0 +1,13 @@
+Mutlaka Bilmen Gereken Platformlar:
+
+Stack Overflow
+Github
+CodeWars
+HackerRank
+Project Euler
+Codility
+LeetCode
+edabit
+repl.it
+CodePen
+Exercism.io
