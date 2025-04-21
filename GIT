@@ -26,3 +26,13 @@ git branch branchadi ile olusturulur ya da vscode gui ile.
 git checkout main -> main branchine geçiş yapar.
 
 git merge branchadi -> branchi main ile birleştirir.
+
+GITHUBa proje yükleme : 
+
+1 - Repo oluştur
+2 - git remote add origin repolinki ile yerel (local) projenizi, 
+GitHubdaki bir projeye bağlamış olursunuz.
+3 - git branch -M main Git projenizdeki aktif dalın (branch) adını main olarak 
+değiştirmek için kullanılır. 
+4 - git push -f origin main // birleştirmek için kullanılır. -f force dan gelir normalde
+git push -u origin main kullanılır hata verilirse -f kullanabiliriz.
