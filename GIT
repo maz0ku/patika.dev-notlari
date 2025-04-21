@@ -36,3 +36,6 @@ GitHubdaki bir projeye bağlamış olursunuz.
 değiştirmek için kullanılır. 
 4 - git push -f origin main // birleştirmek için kullanılır. -f force dan gelir normalde
 git push -u origin main kullanılır hata verilirse -f kullanabiliriz.
+
+git pull -> uzak bilgisayarda her hangi bir şeyi değiştirdiysek ana bilgisayara bu
+güncellemeyi almak için kullanılır.
