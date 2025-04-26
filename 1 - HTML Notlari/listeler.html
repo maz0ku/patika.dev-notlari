@@ -1,0 +1,81 @@
+<h1>Listeler</h1>
+<!--
+Sıralı Liste (Ordered List) -> 1,2,3, order list ? -> ol
+Sıralı Olmayan Listeler (Unordered List) -> *,*,*,* unorder list ? -> ul
+li -> list item -> liste elemanı
+-->
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li> 
+</ul>
+
+<h3>İç içe liste:</h3>
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript
+        <ul>
+            <li>React</li>
+            <li>Vue</li>
+            <li>Angular</li>
+        </ul>
+    </li>
+</ol>
+
+<!--
+Emmet Özelliği:
+
++ kardeş öge
+> içinde öge
+^ yukarı çık ve öge oluştur
+* çarp -> p*3 -> 3 tane p oluşturur
+lorem -> lorem yazınca otomatik olarak 10 tane kelime oluşturur.
+. -> class
+# -> id
+-->
+
+<!-- ul>li*3^p+h3 -->
+<ul>
+    <li>Test</li>
+    <li>Test</li>
+    <li>Test</li>
+</ul>
+<p>Test</p>
+<h3>Test</h3>
+
+<!-- Lorem Kullanımı: -->
+
+<!-- p>lorem5 (5 kelimelik lorem oluşturur) -->
+ 
+<p>Lorem ipsum dolor sit amet.</p>
+
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem2-->
+<ul>
+    <li>Lorem.</li>
+    <li>Sunt!</li>
+    <li>Modi!</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Ex distinctio veniam ad.</p>
+<h3>Lorem, ipsum.</h3>
+
+<!-- Class Oluşturma -->
+
+<h3 class="deneme"></h3> <!-- h3.deneme ile hızlıca oluşturabiliriz. -->
+
+<!-- hem class hem de id verebiliriz: h3.denemeolsun#denemeolsun2>lorem1 -->
+
+<h3 class="denemeolsun" id="denemeolsun2">Lorem.</h3>
+
+<!-- .tepki -> .tepki classında div oluşturur -->
+
+<div class="tepki"></div>
+
+<!-- ul>.tepki -> ul nin içerisinde 1 tane li oluşturur ve classını tepki yapar. -->
