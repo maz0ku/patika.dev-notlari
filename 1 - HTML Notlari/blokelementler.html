@@ -1,0 +1,29 @@
+<!--
+Bulunduğu yerin tamamını kaplayan elementlere blok element denir.
+Bulundukları yerin tamamını kapladıkları için üst üste gelmezler.
+Inline elementler gibi yan yana gelmezler. (Mesela önceki derste a etiketi yan yana geliyordu.)
+Blok elementler yan yana gelmezler. Her biri kendi satırında yer alır.
+Blok elementler genellikle sayfanın yapısını oluşturur. (div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, header, footer, section, article gibi)
+Inline elementler ise sayfanın içeriğini oluşturur. (a, span, img, strong, em, b, i gibi)
+htmlreference.io'dan inline ve blok elementlerin tam listesini bulabiliriz.
+Div blok oluşturur ve başka bir işe yaramaz. Blok içine alırız ki ileride çalışma yapabilelim. Div en çok kullanılan blok elementtir.
+span ise inline elementtir. Inline elementler satır içinde yer alır. Inline elementler üst üste gelmezler. Inline elementler satır içinde yer alır ve yan yana gelirler.
+span hayali bir kutu gibidir. Olduğu yeri kaplar. Kendi işine bir yaramaz css ile kullanılır.
+hr: bir çizgi çizer. blok elementtir ve sayfayı ikiye ayırır. (hr etiketi boş bir satır bırakmaz.)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blok ve Inline Elementler</title>
+</head>
+<body>
+    <h1>Blok ve Inline Elementler</h1>
+    <p>Lorem ipsum dolor <strong>sit</strong> amet consectetur adipisicing elit. Molestiae, <a href="#">voluptatibus.</a></p>
+    <p>Lorem ipsum dolor <span style="color:red;">sit amet</span> consectetur, adipisicing elit. Quam, aliquid?</p>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, <strong>voluptatibus</strong>!</p>
+</body>
+</html>
