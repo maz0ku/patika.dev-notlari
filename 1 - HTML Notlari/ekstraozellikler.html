@@ -1,0 +1,61 @@
+<!--
+ID değeri atanırken iki kelime arasında boşluk olamaz ama - kullanılabilir.
+Classta durum farklı birden fazla class olduğundan boşluk olabilir örnek: <a href="#" class="birinciSinif ikinciSinif">Link</a>
+Kendimiz de etiket oluşturabiliriz. Örnek: <div deneme="">Deneme</div> gibi. Genellikle böyle kullanılmaz başına data eklenir. Örnek: <div data-deneme="">Deneme</div> gibi.
+Semantik etiketler: <header>, <footer>, <nav>, <section>, <article>, <aside>, <main> gibi etiketler. Bu etiketler sayfanın yapısını belirler.
+Semantik kodlamak her zaman iyidir. Çünkü arama motorları bu etiketleri daha iyi anlar ve sayfanın yapısını daha iyi kavrar.
+-->
+
+<!DOCTYPE html> <!-- sayfanın html5 olduğunu belirtiyor -->
+<html lang="tr"> <!-- sayfanın dilini belirtiyor -->
+<head>
+    <meta charset="UTF-8"> <!-- Karakter setini belirtiyor (türkçe için UTF-8 yeterli) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ilk açıldığında nasıl açılacağını söylüyor -->
+    <title>Document</title> <!-- başlık bilgisi -->
+    <!-- CSS - Font v.s. eklerken buraya ekleriz. JavaScript kodları en alta eklenmesi gerekir. -->
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Et odit qui atque. Ipsa.</li>
+            <li>Eveniet nisi labore voluptatibus distinctio.</li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <aside>
+            <h2>Left Bar</h2>
+            <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Libero iusto voluptatem dolores odit.</li>
+                <li>Explicabo voluptates fugiat obcaecati dolorem.</li>
+                <li>Fugit eaque veritatis voluptas optio!</li>
+            </ul>
+        </aside>
+
+        <section>
+            <article>
+                <h1>Lorem.</h1>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Eum ad ipsa obcaecati.</p>
+            </article>
+            <article>
+                <h1>Optio.</h1>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Atque officia corporis itaque.</p>
+            </article>
+            <article>
+                <h1>Labore.</h1>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Sit amet tenetur autem.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h1>Lorem.</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </footer>
+</body>
+</html>
